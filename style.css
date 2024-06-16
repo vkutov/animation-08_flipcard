@@ -14,6 +14,7 @@
     margin: 1.5em auto;
     transform-style: preserve-3d;
     transform: rotateX(-45deg) rotateY(20deg) rotateZ(30deg);
+    animation: mymove 5s infinite;
 }
 
 .one {
@@ -44,4 +45,10 @@
 .six {
     transform: rotateY(180deg) translateZ(1em);
     background-color: #FC814B;
+}
+
+@keyframes mymove {
+    50% {
+        transform: rotateY(-180deg);
+    }
 }
