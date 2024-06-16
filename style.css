@@ -1,0 +1,47 @@
+.sida {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    line-height: 2em;
+    opacity: 0.5;
+    margin: 2rem;
+}
+
+.cube {
+    font-size: 10em;
+    width: 2em;
+    margin: 1.5em auto;
+    transform-style: preserve-3d;
+    transform: rotateX(-45deg) rotateY(20deg) rotateZ(30deg);
+}
+
+.one {
+    transform: translateZ(1em);
+    background-color:
+}
+
+.two {
+    transform: rotateX(90deg) translateZ(1em);
+    background-color: #FC814B;
+}
+
+.three {
+    transform: rotateY(90deg) translateZ(1em);
+    background-color: #BE82C0;
+}
+
+.four {
+    transform: rotateY(-90deg) translateZ(1em);
+    background-color: #975BC5;
+}
+
+.five {
+    transform: rotateX(-90deg) translateZ(1em);
+    background-color: #5A82EA;
+}
+
+.six {
+    transform: rotateY(180deg) translateZ(1em);
+    background-color: #FC814B;
+}
