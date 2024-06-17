@@ -14,36 +14,36 @@
     margin: 1.5em auto;
     transform-style: preserve-3d;
     transform: rotateX(-45deg) rotateY(20deg) rotateZ(30deg);
-    animation: mymove 5s infinite;
+    animation: mymove 5s 2;
 }
 
 .one {
-    transform: translateZ(1em);
-    background-color:
-}
-
-.two {
-    transform: rotateX(90deg) translateZ(1em);
+    transform: rotateY(90deg) translateZ(1em) rotateZ(90deg);
     background-color: #FC814B;
 }
 
+.two {
+    transform: rotateY(-90deg) translateZ(1em) rotateZ(-90deg);
+    background-color: #FC82A3;
+}
+
 .three {
-    transform: rotateY(90deg) translateZ(1em);
-    background-color: #BE82C0;
+    transform: translateZ(1em) rotateZ(180deg);
+    background-color: #FC82A3;
 }
 
 .four {
-    transform: rotateY(-90deg) translateZ(1em);
-    background-color: #975BC5;
+    transform: rotateY(180deg) translateZ(1em) rotateY(180deg);
+    background-color: #FC5A44;
 }
 
 .five {
-    transform: rotateX(-90deg) translateZ(1em);
+    transform: rotateX(-90deg) translateZ(1em) rotateX(180deg);
     background-color: #5A82EA;
 }
 
 .six {
-    transform: rotateY(180deg) translateZ(1em);
+    transform: rotateX(90deg) translateZ(1em);
     background-color: #FC814B;
 }
 
